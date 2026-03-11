@@ -1,7 +1,5 @@
 # Slice Agent: Identifying and Isolating Slices in Shared Open Radio Unit
 
-# Slice Agent: Identifying and Isolating Slices in a Shared Open Radio Unit
-
 This repository contains the prototype implementation and experimental artifacts of the paper:
 
 **Slice Agent: Identifying and Isolating Slices in a Shared Open Radio Unit**
