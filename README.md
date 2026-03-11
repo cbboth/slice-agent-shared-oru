@@ -1,5 +1,4 @@
-# slice-agent-shared-oru
-Slice Agent: Identifying and Isolating Slices in Shared Open Radio Unit
+# Slice Agent: Identifying and Isolating Slices in Shared Open Radio Unit
 
 # Slice Agent: Identifying and Isolating Slices in a Shared Open Radio Unit
 
