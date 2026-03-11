@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="31.370000 us"></ZoomStartTime>
+      <ZoomEndTime time="2,545.370001 us"></ZoomEndTime>
+      <Cursor1Time time="450.370000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="221"></NameColumnWidth>
+      <ValueColumnWidth column_width="193"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb_top/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/DUT/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/DUT/start_sgn" type="logic">
+      <obj_property name="ElementShortName">start_sgn</obj_property>
+      <obj_property name="ObjectShortName">start_sgn</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1090" type="group">
+      <obj_property name="label">Ids</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/frameID" type="array">
+         <obj_property name="ElementShortName">frameID[7:0]</obj_property>
+         <obj_property name="ObjectShortName">frameID[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/subframeID" type="array">
+         <obj_property name="ElementShortName">subframeID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">subframeID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/slotID" type="array">
+         <obj_property name="ElementShortName">slotID[5:0]</obj_property>
+         <obj_property name="ObjectShortName">slotID[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/symbolID" type="array">
+         <obj_property name="ElementShortName">symbolID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">symbolID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/mu" type="array">
+         <obj_property name="ElementShortName">mu[3:0]</obj_property>
+         <obj_property name="ObjectShortName">mu[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group1089" type="group">
+      <obj_property name="label">Cfgs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/DUT/cfg_frameID" type="array">
+         <obj_property name="ElementShortName">cfg_frameID[7:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_frameID[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/cfg_subframeID" type="array">
+         <obj_property name="ElementShortName">cfg_subframeID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_subframeID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/cfg_slotID" type="array">
+         <obj_property name="ElementShortName">cfg_slotID[5:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_slotID[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/cfg_mu" type="array">
+         <obj_property name="ElementShortName">cfg_mu[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_mu[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/cfg_slotStep" type="array">
+         <obj_property name="ElementShortName">cfg_slotStep[3:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_slotStep[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/cfg_maxSlotId" type="array">
+         <obj_property name="ElementShortName">cfg_maxSlotId[5:0]</obj_property>
+         <obj_property name="ObjectShortName">cfg_maxSlotId[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/symbT" type="array">
+         <obj_property name="ElementShortName">symbT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">symbT[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/slotT" type="array">
+         <obj_property name="ElementShortName">slotT[15:0]</obj_property>
+         <obj_property name="ObjectShortName">slotT[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/minTime2Proc" type="array">
+         <obj_property name="ElementShortName">minTime2Proc[15:0]</obj_property>
+         <obj_property name="ObjectShortName">minTime2Proc[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/nIQSamples" type="array">
+         <obj_property name="ElementShortName">nIQSamples[31:0]</obj_property>
+         <obj_property name="ObjectShortName">nIQSamples[31:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group415" type="group">
+      <obj_property name="label">CPLANE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group40" type="group">
+         <obj_property name="label">RX AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_top/DUT/rxCplane_axi_tdata" type="array">
+            <obj_property name="ElementShortName">rxCplane_axi_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">rxCplane_axi_tdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_top/DUT/rxCplane_axi_tvalid" type="logic">
+            <obj_property name="ElementShortName">rxCplane_axi_tvalid</obj_property>
+            <obj_property name="ObjectShortName">rxCplane_axi_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_top/DUT/rxCplane_axi_tlast" type="logic">
+            <obj_property name="ElementShortName">rxCplane_axi_tlast</obj_property>
+            <obj_property name="ObjectShortName">rxCplane_axi_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_top/DUT/rxCplane_axi_tready" type="logic">
+            <obj_property name="ElementShortName">rxCplane_axi_tready</obj_property>
+            <obj_property name="ObjectShortName">rxCplane_axi_tready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group45" type="group">
+         <obj_property name="label">TX AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb_top/DUT/txCplane_axi_tdata" type="array">
+            <obj_property name="ElementShortName">txCplane_axi_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">txCplane_axi_tdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_top/DUT/txCplane_axi_tvalid" type="logic">
+            <obj_property name="ElementShortName">txCplane_axi_tvalid</obj_property>
+            <obj_property name="ObjectShortName">txCplane_axi_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_top/DUT/txCplane_axi_tlast" type="logic">
+            <obj_property name="ElementShortName">txCplane_axi_tlast</obj_property>
+            <obj_property name="ObjectShortName">txCplane_axi_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb_top/DUT/txCplane_axi_tready" type="logic">
+            <obj_property name="ElementShortName">txCplane_axi_tready</obj_property>
+            <obj_property name="ObjectShortName">txCplane_axi_tready</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group54" type="group">
+      <obj_property name="label">LOW PHY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/DUT/lphy_axi_tdata" type="array">
+         <obj_property name="ElementShortName">lphy_axi_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">lphy_axi_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/lphy_axi_tvalid" type="logic">
+         <obj_property name="ElementShortName">lphy_axi_tvalid</obj_property>
+         <obj_property name="ObjectShortName">lphy_axi_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/lphy_axi_tready" type="logic">
+         <obj_property name="ElementShortName">lphy_axi_tready</obj_property>
+         <obj_property name="ObjectShortName">lphy_axi_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/lphy_axi_tlast" type="logic">
+         <obj_property name="ElementShortName">lphy_axi_tlast</obj_property>
+         <obj_property name="ObjectShortName">lphy_axi_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group420" type="group">
+      <obj_property name="label">Start</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top/DUT/lphy_start" type="logic">
+         <obj_property name="ElementShortName">lphy_start</obj_property>
+         <obj_property name="ObjectShortName">lphy_start</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top/DUT/cplane_start" type="logic">
+         <obj_property name="ElementShortName">cplane_start</obj_property>
+         <obj_property name="ObjectShortName">cplane_start</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
