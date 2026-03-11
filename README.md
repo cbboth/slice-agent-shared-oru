@@ -191,9 +191,11 @@ slice-agent-shared-oru/
 
 If you use this work, please cite:
 
+```bibtex
 @article{sliceagent2025,
-title={Slice Agent: Identifying and Isolating Slices in Shared Open Radio Unit},
-author={...},
-year={2025}
+  title={Slice Agent: Identifying and Isolating Slices in Shared Open Radio Unit},
+  author={...},
+  year={2025}
 }
+```
 
