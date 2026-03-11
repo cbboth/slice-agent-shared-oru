@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="insertion_sort_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="insertion_sort" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="57.127 ns"></ZoomStartTime>
+      <ZoomEndTime time="318.928 ns"></ZoomEndTime>
+      <Cursor1Time time="110.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="167"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/insertion_sort/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/insertion_sort/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group261" type="group">
+      <obj_property name="label">AXI INPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/insertion_sort/src_tvalid" type="logic">
+         <obj_property name="ElementShortName">src_tvalid</obj_property>
+         <obj_property name="ObjectShortName">src_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/src_tready" type="logic">
+         <obj_property name="ElementShortName">src_tready</obj_property>
+         <obj_property name="ObjectShortName">src_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/src_tdata" type="array">
+         <obj_property name="ElementShortName">src_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">src_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/src_tlast" type="logic">
+         <obj_property name="ElementShortName">src_tlast</obj_property>
+         <obj_property name="ObjectShortName">src_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">AXI OUTPUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/insertion_sort/dest_tvalid" type="logic">
+         <obj_property name="ElementShortName">dest_tvalid</obj_property>
+         <obj_property name="ObjectShortName">dest_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/dest_tready" type="logic">
+         <obj_property name="ElementShortName">dest_tready</obj_property>
+         <obj_property name="ObjectShortName">dest_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/dest_tdata" type="array">
+         <obj_property name="ElementShortName">dest_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">dest_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/dest_tlast" type="logic">
+         <obj_property name="ElementShortName">dest_tlast</obj_property>
+         <obj_property name="ObjectShortName">dest_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/insertion_sort/eject" type="logic">
+      <obj_property name="ElementShortName">eject</obj_property>
+      <obj_property name="ObjectShortName">eject</obj_property>
+   </wvobject>
+   <wvobject fp_name="/insertion_sort/tlast_err" type="logic">
+      <obj_property name="ElementShortName">tlast_err</obj_property>
+      <obj_property name="ObjectShortName">tlast_err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/insertion_sort/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/insertion_sort/sm" type="other">
+      <obj_property name="ElementShortName">sm</obj_property>
+      <obj_property name="ObjectShortName">sm</obj_property>
+   </wvobject>
+   <wvobject fp_name="group786" type="group">
+      <obj_property name="label">data_buf</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/insertion_sort/data_buf[10]" type="array">
+         <obj_property name="ElementShortName">[10][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[9]" type="array">
+         <obj_property name="ElementShortName">[9][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[8]" type="array">
+         <obj_property name="ElementShortName">[8][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[7]" type="array">
+         <obj_property name="ElementShortName">[7][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[6]" type="array">
+         <obj_property name="ElementShortName">[6][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[5]" type="array">
+         <obj_property name="ElementShortName">[5][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[4]" type="array">
+         <obj_property name="ElementShortName">[4][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[3]" type="array">
+         <obj_property name="ElementShortName">[3][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[2]" type="array">
+         <obj_property name="ElementShortName">[2][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[1]" type="array">
+         <obj_property name="ElementShortName">[1][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/insertion_sort/data_buf[0]" type="array">
+         <obj_property name="ElementShortName">[0][63:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][63:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
