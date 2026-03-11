@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="132.700001 us"></ZoomEndTime>
+      <Cursor1Time time="115.080000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">Control Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/DUT/CONTROL_UNIT/swap" type="logic">
+         <obj_property name="ElementShortName">swap</obj_property>
+         <obj_property name="ObjectShortName">swap</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/CONTROL_UNIT/ejectSymb" type="array">
+         <obj_property name="ElementShortName">ejectSymb[13:0]</obj_property>
+         <obj_property name="ObjectShortName">ejectSymb[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/CONTROL_UNIT/symbSel" type="array">
+         <obj_property name="ElementShortName">symbSel[3:0]</obj_property>
+         <obj_property name="ObjectShortName">symbSel[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/addSlice" type="logic">
+         <obj_property name="ElementShortName">addSlice</obj_property>
+         <obj_property name="ObjectShortName">addSlice</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/rmSlice" type="logic">
+         <obj_property name="ElementShortName">rmSlice</obj_property>
+         <obj_property name="ObjectShortName">rmSlice</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group3670" type="group">
+      <obj_property name="label">IDs control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/frameID" type="array">
+         <obj_property name="ElementShortName">frameID[7:0]</obj_property>
+         <obj_property name="ObjectShortName">frameID[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/subFrameID" type="array">
+         <obj_property name="ElementShortName">subFrameID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">subFrameID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/slotID" type="array">
+         <obj_property name="ElementShortName">slotID[5:0]</obj_property>
+         <obj_property name="ObjectShortName">slotID[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/symbolID" type="array">
+         <obj_property name="ElementShortName">symbolID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">symbolID[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group24" type="group">
+      <obj_property name="label">CPlane REC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group31" type="group">
+         <obj_property name="label">ETH DATA AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/SD_AXIS_tdata" type="array">
+            <obj_property name="ElementShortName">SD_AXIS_tdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">SD_AXIS_tdata[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/SD_AXIS_tvalid" type="logic">
+            <obj_property name="ElementShortName">SD_AXIS_tvalid</obj_property>
+            <obj_property name="ObjectShortName">SD_AXIS_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/SD_AXIS_tlast" type="logic">
+            <obj_property name="ElementShortName">SD_AXIS_tlast</obj_property>
+            <obj_property name="ObjectShortName">SD_AXIS_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/SD_AXIS_tready" type="logic">
+            <obj_property name="ElementShortName">SD_AXIS_tready</obj_property>
+            <obj_property name="ObjectShortName">SD_AXIS_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/eCpriId" type="array">
+            <obj_property name="ElementShortName">eCpriId[15:0]</obj_property>
+            <obj_property name="ObjectShortName">eCpriId[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/startSymb" type="array">
+            <obj_property name="ElementShortName">startSymb[5:0]</obj_property>
+            <obj_property name="ObjectShortName">startSymb[5:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/numSymb" type="array">
+            <obj_property name="ElementShortName">numSymb[3:0]</obj_property>
+            <obj_property name="ObjectShortName">numSymb[3:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/startPRB" type="array">
+            <obj_property name="ElementShortName">startPRB[9:0]</obj_property>
+            <obj_property name="ObjectShortName">startPRB[9:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="group2122" type="group">
+            <obj_property name="label">SEP</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/DUT/CPLANEREC/numSymb" type="array">
+               <obj_property name="ElementShortName">numSymb[3:0]</obj_property>
+               <obj_property name="ObjectShortName">numSymb[3:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/CPLANEREC/startSymb" type="array">
+               <obj_property name="ElementShortName">startSymb[5:0]</obj_property>
+               <obj_property name="ObjectShortName">startSymb[5:0]</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/CPLANEREC/cntData" type="array">
+               <obj_property name="ElementShortName">cntData[3:0]</obj_property>
+               <obj_property name="ObjectShortName">cntData[3:0]</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group36" type="group">
+         <obj_property name="label">ETH STATUS AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject fp_name="group51" type="group">
+         <obj_property name="label">SLICE N AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_0_tdata" type="array">
+            <obj_property name="ElementShortName">M_AXIS_0_tdata[127:0]</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_0_tdata[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_0_tvalid" type="logic">
+            <obj_property name="ElementShortName">M_AXIS_0_tvalid</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_0_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_0_tlast" type="logic">
+            <obj_property name="ElementShortName">M_AXIS_0_tlast</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_0_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_0_tready" type="logic">
+            <obj_property name="ElementShortName">M_AXIS_0_tready</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_0_tready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group56" type="group">
+         <obj_property name="label">SLICE N1 AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_1_tdata" type="array">
+            <obj_property name="ElementShortName">M_AXIS_1_tdata[127:0]</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_1_tdata[127:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_1_tvalid" type="logic">
+            <obj_property name="ElementShortName">M_AXIS_1_tvalid</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_1_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_1_tlast" type="logic">
+            <obj_property name="ElementShortName">M_AXIS_1_tlast</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_1_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CPLANEREC/M_AXIS_1_tready" type="logic">
+            <obj_property name="ElementShortName">M_AXIS_1_tready</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_1_tready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/CPLANEREC/fsm" type="other">
+         <obj_property name="ElementShortName">fsm</obj_property>
+         <obj_property name="ObjectShortName">fsm</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">Slice MEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group66" type="group">
+         <obj_property name="label">SliceType Check</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/DUT/CONTROL_UNIT/SLICEMEM/check_eCPRI" type="array">
+            <obj_property name="ElementShortName">check_eCPRI[15:0]</obj_property>
+            <obj_property name="ObjectShortName">check_eCPRI[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CONTROL_UNIT/SLICEMEM/sliceType_valid" type="logic">
+            <obj_property name="ElementShortName">sliceType_valid</obj_property>
+            <obj_property name="ObjectShortName">sliceType_valid</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group62" type="group">
+         <obj_property name="label">SliceType Write</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/CONTROL_UNIT/SLICEMEM/eCPRI_ID" type="array">
+            <obj_property name="ElementShortName">eCPRI_ID[15:0]</obj_property>
+            <obj_property name="ObjectShortName">eCPRI_ID[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CONTROL_UNIT/SLICEMEM/addSlice" type="logic">
+            <obj_property name="ElementShortName">addSlice</obj_property>
+            <obj_property name="ObjectShortName">addSlice</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CONTROL_UNIT/SLICEMEM/rmSlice" type="logic">
+            <obj_property name="ElementShortName">rmSlice</obj_property>
+            <obj_property name="ObjectShortName">rmSlice</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/CONTROL_UNIT/SLICEMEM/memCnt" type="other">
+            <obj_property name="ElementShortName">memCnt</obj_property>
+            <obj_property name="ObjectShortName">memCnt</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">Sched Proc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group71" type="group">
+         <obj_property name="label">PROC T2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group77" type="group">
+            <obj_property name="label">PROC</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/sched_procv2_1/S_AXIS_0" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_0</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_0</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/sched_procv2_1/U0/start" type="logic">
+               <obj_property name="ElementShortName">start</obj_property>
+               <obj_property name="ObjectShortName">start</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/sched_procv2_1/U0/isNext" type="logic">
+               <obj_property name="ElementShortName">isNext</obj_property>
+               <obj_property name="ObjectShortName">isNext</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/sched_procv2_1/U0/fsm" type="other">
+               <obj_property name="ElementShortName">fsm</obj_property>
+               <obj_property name="ObjectShortName">fsm</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/sched_procv2_1/M_AXIS_0" type="protoinst">
+               <obj_property name="ElementShortName">M_AXIS_0</obj_property>
+               <obj_property name="ObjectShortName">M_AXIS_0</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group74" type="group">
+            <obj_property name="label">DEMUX</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/symb_buffers_wrapper_1/U0/symbEn_0" type="array">
+               <obj_property name="ElementShortName">symbEn_0[13:0]</obj_property>
+               <obj_property name="ObjectShortName">symbEn_0[13:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group2615" type="group">
+            <obj_property name="label">AXI OUT</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="group68" type="group">
+            <obj_property name="label">BUFFERS</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_0B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_0B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_0B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_1B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_1B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_1B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_2B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_2B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_2B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_3B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_3B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_3B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_4B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_4B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_4B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_5B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_5B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_5B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_6B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_6B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_6B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_7B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_7B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_7B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_8B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_8B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_8B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_9B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_9B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_9B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_10B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_10B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_10B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_11B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_11B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_11B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_12B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_12B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_12B</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_13B" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_13B</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_13B</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group71" type="group">
+         <obj_property name="label">PROC T1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="group77" type="group">
+            <obj_property name="label">PROC</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject fp_name="group74" type="group">
+            <obj_property name="label">DEMUX</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/symb_buffers_wrapper_0/symbEn_0" type="array">
+               <obj_property name="ElementShortName">symbEn_0[13:0]</obj_property>
+               <obj_property name="ObjectShortName">symbEn_0[13:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="group68" type="group">
+            <obj_property name="label">BUFFERS</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_0A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_0A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_0A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_1A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_1A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_1A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_2A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_2A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_2A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_3A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_3A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_3A</obj_property>
+               <obj_property name="children_use_element_short_name">true</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">#00E600</obj_property>
+               <obj_property name="Render_Data">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_3A.streamWaveData</obj_property>
+               <obj_property name="Number_Overlay">2</obj_property>
+               <obj_property name="Overlay_Object_0">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_3A.linkStarve</obj_property>
+               <obj_property name="Overlay_Color_0">#99E600</obj_property>
+               <obj_property name="Overlay_Object_1">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_3A.linkStall</obj_property>
+               <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+               <obj_property name="Detail_Data">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_3A.streamTooltipData</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_4A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_4A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_4A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_5A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_5A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_5A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_6A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_6A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_6A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_7A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_7A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_7A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_8A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_8A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_8A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_9A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_9A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_9A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_10A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_10A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_10A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_11A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_11A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_11A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_12A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_12A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_12A</obj_property>
+            </wvobject>
+            <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/S_AXIS_13A" type="protoinst">
+               <obj_property name="ElementShortName">S_AXIS_13A</obj_property>
+               <obj_property name="ObjectShortName">S_AXIS_13A</obj_property>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group67" type="group">
+         <obj_property name="label">MUX OUT</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/M_AXIS_00_0" type="protoinst">
+            <obj_property name="children_use_element_short_name">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+            <obj_property name="EnumTransactionColorTable">fff,fff=blank</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="CustomSignalColor">#00E600</obj_property>
+            <obj_property name="Render_Data">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/M_AXIS_00_0.streamWaveData</obj_property>
+            <obj_property name="Number_Overlay">2</obj_property>
+            <obj_property name="Overlay_Object_0">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/M_AXIS_00_0.linkStarve</obj_property>
+            <obj_property name="Overlay_Color_0">#99E600</obj_property>
+            <obj_property name="Overlay_Object_1">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/M_AXIS_00_0.linkStall</obj_property>
+            <obj_property name="Overlay_Color_1">#E64C00</obj_property>
+            <obj_property name="Detail_Data">/tb/DUT/SLICE_PROC/slice_agent_i/Buffers/M_AXIS_00_0.streamTooltipData</obj_property>
+            <obj_property name="ElementShortName">M_AXIS_00_0</obj_property>
+            <obj_property name="ObjectShortName">M_AXIS_00_0</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group327" type="group">
+      <obj_property name="label">Encapsulation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="group1500" type="group">
+         <obj_property name="label">SCH</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/tb/DUT/ENCAP/SchD_AXI_tdata" type="array">
+            <obj_property name="ElementShortName">SchD_AXI_tdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">SchD_AXI_tdata[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/SchD_AXI_tvalid" type="logic">
+            <obj_property name="ElementShortName">SchD_AXI_tvalid</obj_property>
+            <obj_property name="ObjectShortName">SchD_AXI_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/SchD_AXI_tlast" type="logic">
+            <obj_property name="ElementShortName">SchD_AXI_tlast</obj_property>
+            <obj_property name="ObjectShortName">SchD_AXI_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/SchD_AXI_tready" type="logic">
+            <obj_property name="ElementShortName">SchD_AXI_tready</obj_property>
+            <obj_property name="ObjectShortName">SchD_AXI_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/SchD_isEmpty" type="logic">
+            <obj_property name="ElementShortName">SchD_isEmpty</obj_property>
+            <obj_property name="ObjectShortName">SchD_isEmpty</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group322" type="group">
+         <obj_property name="label">LPHY AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/LPHY_CFG_START" type="array">
+            <obj_property name="ElementShortName">LPHY_CFG_START[15:0]</obj_property>
+            <obj_property name="ObjectShortName">LPHY_CFG_START[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/LPHY_START_valid" type="logic">
+            <obj_property name="ElementShortName">LPHY_START_valid</obj_property>
+            <obj_property name="ObjectShortName">LPHY_START_valid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/LPHY_AXI_tdata" type="array">
+            <obj_property name="ElementShortName">LPHY_AXI_tdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">LPHY_AXI_tdata[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/LPHY_AXI_tvalid" type="logic">
+            <obj_property name="ElementShortName">LPHY_AXI_tvalid</obj_property>
+            <obj_property name="ObjectShortName">LPHY_AXI_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/LPHY_AXI_tlast" type="logic">
+            <obj_property name="ElementShortName">LPHY_AXI_tlast</obj_property>
+            <obj_property name="ObjectShortName">LPHY_AXI_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/LPHY_AXI_tready" type="logic">
+            <obj_property name="ElementShortName">LPHY_AXI_tready</obj_property>
+            <obj_property name="ObjectShortName">LPHY_AXI_tready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group328" type="group">
+         <obj_property name="label">TX AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/TxD_AXIS_tdata" type="array">
+            <obj_property name="ElementShortName">TxD_AXIS_tdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">TxD_AXIS_tdata[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxD_AXIS_tvalid" type="logic">
+            <obj_property name="ElementShortName">TxD_AXIS_tvalid</obj_property>
+            <obj_property name="ObjectShortName">TxD_AXIS_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxD_AXIS_tlast" type="logic">
+            <obj_property name="ElementShortName">TxD_AXIS_tlast</obj_property>
+            <obj_property name="ObjectShortName">TxD_AXIS_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxD_AXIS_tready" type="logic">
+            <obj_property name="ElementShortName">TxD_AXIS_tready</obj_property>
+            <obj_property name="ObjectShortName">TxD_AXIS_tready</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxD_AXI_tstrb" type="array">
+            <obj_property name="ElementShortName">TxD_AXI_tstrb[7:0]</obj_property>
+            <obj_property name="ObjectShortName">TxD_AXI_tstrb[7:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group357" type="group">
+         <obj_property name="label">TX CONTROL AXI</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/TxC_AXIS_tdata" type="array">
+            <obj_property name="ElementShortName">TxC_AXIS_tdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">TxC_AXIS_tdata[63:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxC_AXIS_tvalid" type="logic">
+            <obj_property name="ElementShortName">TxC_AXIS_tvalid</obj_property>
+            <obj_property name="ObjectShortName">TxC_AXIS_tvalid</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxC_AXIS_tlast" type="logic">
+            <obj_property name="ElementShortName">TxC_AXIS_tlast</obj_property>
+            <obj_property name="ObjectShortName">TxC_AXIS_tlast</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/TxC_AXIS_tready" type="logic">
+            <obj_property name="ElementShortName">TxC_AXIS_tready</obj_property>
+            <obj_property name="ObjectShortName">TxC_AXIS_tready</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/ENCAP/fsm" type="other">
+         <obj_property name="ElementShortName">fsm</obj_property>
+         <obj_property name="ObjectShortName">fsm</obj_property>
+      </wvobject>
+      <wvobject fp_name="group376" type="group">
+         <obj_property name="label">Counters</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/ENCAP/startPrbu" type="array">
+            <obj_property name="ElementShortName">startPrbu[9:0]</obj_property>
+            <obj_property name="ObjectShortName">startPrbu[9:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/numPrbu" type="array">
+            <obj_property name="ElementShortName">numPrbu[7:0]</obj_property>
+            <obj_property name="ObjectShortName">numPrbu[7:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/dataLen" type="array">
+            <obj_property name="ElementShortName">dataLen[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dataLen[15:0]</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/l_stByte" type="array">
+            <obj_property name="ElementShortName">l_stByte[15:0]</obj_property>
+            <obj_property name="ObjectShortName">l_stByte[15:0]</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/ENCAP/ethDRest" type="other">
+            <obj_property name="ElementShortName">ethDRest</obj_property>
+            <obj_property name="ObjectShortName">ethDRest</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group2069" type="group">
+      <obj_property name="label">Debug</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group344" type="group">
+         <obj_property name="label">REC</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/dbg_rec" type="logic">
+            <obj_property name="ElementShortName">dbg_rec</obj_property>
+            <obj_property name="ObjectShortName">dbg_rec</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_rec_ecpri" type="array">
+            <obj_property name="ElementShortName">dbg_rec_ecpri[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dbg_rec_ecpri[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2076" type="group">
+         <obj_property name="label">PROC N</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/dbg_proc_begin_n" type="logic">
+            <obj_property name="ElementShortName">dbg_proc_begin_n</obj_property>
+            <obj_property name="ObjectShortName">dbg_proc_begin_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_proc_end_n" type="logic">
+            <obj_property name="ElementShortName">dbg_proc_end_n</obj_property>
+            <obj_property name="ObjectShortName">dbg_proc_end_n</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_proc_ecpri_n" type="array">
+            <obj_property name="ElementShortName">dbg_proc_ecpri_n[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dbg_proc_ecpri_n[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group2077" type="group">
+         <obj_property name="label">PROC N-1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/dbg_proc_begin_n1" type="logic">
+            <obj_property name="ElementShortName">dbg_proc_begin_n1</obj_property>
+            <obj_property name="ObjectShortName">dbg_proc_begin_n1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_proc_end_n1" type="logic">
+            <obj_property name="ElementShortName">dbg_proc_end_n1</obj_property>
+            <obj_property name="ObjectShortName">dbg_proc_end_n1</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_proc_ecpri_n1" type="array">
+            <obj_property name="ElementShortName">dbg_proc_ecpri_n1[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dbg_proc_ecpri_n1[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group345" type="group">
+         <obj_property name="label">ENCAP</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="/tb/DUT/dbg_cap_bgn" type="logic">
+            <obj_property name="ElementShortName">dbg_cap_bgn</obj_property>
+            <obj_property name="ObjectShortName">dbg_cap_bgn</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_cap_end" type="logic">
+            <obj_property name="ElementShortName">dbg_cap_end</obj_property>
+            <obj_property name="ObjectShortName">dbg_cap_end</obj_property>
+         </wvobject>
+         <wvobject fp_name="/tb/DUT/dbg_cap_ecpri" type="array">
+            <obj_property name="ElementShortName">dbg_cap_ecpri[15:0]</obj_property>
+            <obj_property name="ObjectShortName">dbg_cap_ecpri[15:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group366" type="group">
+      <obj_property name="label">Ids</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/DUT/nxt_frameID" type="array">
+         <obj_property name="ElementShortName">nxt_frameID[7:0]</obj_property>
+         <obj_property name="ObjectShortName">nxt_frameID[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/nxt_subFrameID" type="array">
+         <obj_property name="ElementShortName">nxt_subFrameID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">nxt_subFrameID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/nxt_slotID" type="array">
+         <obj_property name="ElementShortName">nxt_slotID[5:0]</obj_property>
+         <obj_property name="ObjectShortName">nxt_slotID[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/frameID" type="array">
+         <obj_property name="ElementShortName">frameID[7:0]</obj_property>
+         <obj_property name="ObjectShortName">frameID[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/subFrameID" type="array">
+         <obj_property name="ElementShortName">subFrameID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">subFrameID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/slotID" type="array">
+         <obj_property name="ElementShortName">slotID[5:0]</obj_property>
+         <obj_property name="ObjectShortName">slotID[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/symbolID" type="array">
+         <obj_property name="ElementShortName">symbolID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">symbolID[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/cfg_iqWidth" type="array">
+      <obj_property name="ElementShortName">cfg_iqWidth[5:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_iqWidth[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/cfg_maxPRBPkt" type="array">
+      <obj_property name="ElementShortName">cfg_maxPRBPkt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cfg_maxPRBPkt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/bypass_eth" type="array">
+      <obj_property name="ElementShortName">bypass_eth[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bypass_eth[3:0]</obj_property>
+   </wvobject>
+</wave_config>
