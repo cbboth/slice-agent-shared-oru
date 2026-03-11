@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="996.999 ns"></ZoomEndTime>
+      <Cursor1Time time="700.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="328"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb/clka" type="logic">
+      <obj_property name="ElementShortName">clka</obj_property>
+      <obj_property name="ObjectShortName">clka</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/isNext" type="logic">
+      <obj_property name="ElementShortName">isNext</obj_property>
+      <obj_property name="ObjectShortName">isNext</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/procData" type="array">
+      <obj_property name="ElementShortName">procData[127:0]</obj_property>
+      <obj_property name="ObjectShortName">procData[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group760" type="group">
+      <obj_property name="label">AXI_IN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/S_AXIS_0_tdata" type="array">
+         <obj_property name="ElementShortName">S_AXIS_0_tdata[127:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tdata[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/S_AXIS_0_tready" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_0_tready</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/S_AXIS_0_tvalid" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/S_AXIS_0_tlast" type="logic">
+         <obj_property name="ElementShortName">S_AXIS_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_0_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group765" type="group">
+      <obj_property name="label">AXI_FIFO_IN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group762" type="group">
+      <obj_property name="label">AXI_FIFO_OUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/DUT/fifo_out_axi_data" type="array">
+         <obj_property name="ElementShortName">fifo_out_axi_data[127:0]</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_axi_data[127:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/fifo_out_axi_valid" type="logic">
+         <obj_property name="ElementShortName">fifo_out_axi_valid</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_axi_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/fifo_out_axi_ready" type="logic">
+         <obj_property name="ElementShortName">fifo_out_axi_ready</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_axi_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/fifo_out_axi_last" type="logic">
+         <obj_property name="ElementShortName">fifo_out_axi_last</obj_property>
+         <obj_property name="ObjectShortName">fifo_out_axi_last</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group211" type="group">
+      <obj_property name="label">AXI_OUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/M_AXIS_0_tdata" type="array">
+         <obj_property name="ElementShortName">M_AXIS_0_tdata[63:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tdata[63:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/M_AXIS_0_tready" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_0_tready</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/M_AXIS_0_tvalid" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_0_tvalid</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/M_AXIS_0_tlast" type="logic">
+         <obj_property name="ElementShortName">M_AXIS_0_tlast</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_0_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group761" type="group">
+      <obj_property name="label">OutEnables</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/enSymbols" type="array">
+         <obj_property name="ElementShortName">enSymbols[13:0]</obj_property>
+         <obj_property name="ObjectShortName">enSymbols[13:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/activeSymbol" type="array">
+         <obj_property name="ElementShortName">activeSymbol[13:0]</obj_property>
+         <obj_property name="ObjectShortName">activeSymbol[13:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus398" type="vbus">
+      <obj_property name="label">procData</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/tb/startSymb" type="array">
+         <obj_property name="ElementShortName">startSymb[5:0]</obj_property>
+         <obj_property name="ObjectShortName">startSymb[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/numSymb" type="array">
+         <obj_property name="ElementShortName">numSymb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">numSymb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/startPRB" type="array">
+         <obj_property name="ElementShortName">startPRB[10:0]</obj_property>
+         <obj_property name="ObjectShortName">startPRB[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/numPRB" type="array">
+         <obj_property name="ElementShortName">numPRB[7:0]</obj_property>
+         <obj_property name="ObjectShortName">numPRB[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/eCpriID" type="array">
+         <obj_property name="ElementShortName">eCpriID[15:0]</obj_property>
+         <obj_property name="ObjectShortName">eCpriID[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/vlan" type="array">
+         <obj_property name="ElementShortName">vlan[11:0]</obj_property>
+         <obj_property name="ObjectShortName">vlan[11:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/procData_o" type="array">
+      <obj_property name="ElementShortName">procData_o[63:0]</obj_property>
+      <obj_property name="ObjectShortName">procData_o[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus659" type="vbus">
+      <obj_property name="label">procData_o</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/DUT/startPRB_o" type="array">
+         <obj_property name="ElementShortName">startPRB_o[10:0]</obj_property>
+         <obj_property name="ObjectShortName">startPRB_o[10:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/numPRB_o" type="array">
+         <obj_property name="ElementShortName">numPRB_o[7:0]</obj_property>
+         <obj_property name="ObjectShortName">numPRB_o[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/eCpriID_o" type="array">
+         <obj_property name="ElementShortName">eCpriID_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">eCpriID_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/vlan_o" type="array">
+         <obj_property name="ElementShortName">vlan_o[11:0]</obj_property>
+         <obj_property name="ObjectShortName">vlan_o[11:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/fsm" type="other">
+      <obj_property name="ElementShortName">fsm</obj_property>
+      <obj_property name="ObjectShortName">fsm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/restPRBs" type="other">
+      <obj_property name="ElementShortName">restPRBs</obj_property>
+      <obj_property name="ObjectShortName">restPRBs</obj_property>
+   </wvobject>
+   <wvobject fp_name="group1029" type="group">
+      <obj_property name="label">insertion_sort</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group504" type="group">
+      <obj_property name="label">Slot control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb/DUT/isNext" type="logic">
+         <obj_property name="ElementShortName">isNext</obj_property>
+         <obj_property name="ObjectShortName">isNext</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/c_frameId" type="array">
+         <obj_property name="ElementShortName">c_frameId[7:0]</obj_property>
+         <obj_property name="ObjectShortName">c_frameId[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/c_subframeID" type="array">
+         <obj_property name="ElementShortName">c_subframeID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">c_subframeID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb/DUT/c_slotID" type="array">
+         <obj_property name="ElementShortName">c_slotID[5:0]</obj_property>
+         <obj_property name="ObjectShortName">c_slotID[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
