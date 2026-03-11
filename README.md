@@ -4,7 +4,7 @@ This repository contains the prototype implementation and experimental artifacts
 
 **Slice Agent: Identifying and Isolating Slices in a Shared Open Radio Unit**
 
-The project presents a hardware-based solution to identify and isolate slices in a shared Open Radio Unit (O-RU) environment.
+The project presents a hardware-based solution for identifying and isolating slices in a shared Open Radio Unit (O-RU) environment.
 
 The prototype focuses on the **receiver pipeline scheme**, designed to meet the strict timing constraints of **5G New Radio (NR)** fronthaul communications.
 
@@ -112,7 +112,7 @@ This module allows configuring:
 - uplink data frequency-domain allocation
 - jitter and latency conditions
 
-This flexible configuration allows the emulation of different **fronthaul scenarios** and slice configurations.
+This flexible configuration enables emulation of various **fronthaul scenarios** and slice configurations.
 
 ---
 
