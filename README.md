@@ -158,3 +158,51 @@ These metrics allow evaluating the hardware efficiency of the design.
 ---
 
 # Repository Structure
+
+fpga/
+Hardware implementation of the Slice Agent
+
+fpga/ip_repo/
+Vivado IP blocks, including Slice Agent and O-RU emulator
+
+software/
+Python test environment and experiment orchestration
+
+docs/
+Architecture documentation and diagrams
+
+scripts/
+Automation scripts for running experiments
+
+data/
+Example experiment configurations
+
+results/
+Collected evaluation metrics
+
+# Hardware Platform
+
+- AMD Xilinx Kintex UltraScale FPGA
+- KCU105 Development Board
+
+---
+
+# Tools
+
+- Vivado
+- Python
+- Wireshark
+- UART communication tools
+
+---
+
+# Citation
+
+If you use this work, please cite:
+
+@article{sliceagent2025,
+title={Slice Agent: Identifying and Isolating Slices in Shared Open Radio Unit},
+author={...},
+year={2025}
+}
+
