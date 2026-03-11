@@ -29,7 +29,13 @@ These characteristics make it suitable for implementing high-performance frontha
 
 The architecture of the Slice Agent prototype is shown in the figure below.
 
-![Prototype Architecture](docs/prototype.jpg)
+<p align="center">
+  <img src="docs/prototype.jpg" width="70%">
+</p>
+
+<p align="center">
+  <em>Figure 1 – Slice Agent prototype architecture.</em>
+</p>
 
 The system is composed of the following main components:
 
