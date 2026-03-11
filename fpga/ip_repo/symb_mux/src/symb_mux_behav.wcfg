@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="symb_mux_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="symb_mux" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="12.750001 us"></ZoomEndTime>
+      <Cursor1Time time="3.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="64" />
+   <wvobject fp_name="/symb_mux/Rx_AXIS_0_tdata" type="array">
+      <obj_property name="ElementShortName">Rx_AXIS_0_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Rx_AXIS_0_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Rx_AXIS_0_tvalid" type="logic">
+      <obj_property name="ElementShortName">Rx_AXIS_0_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Rx_AXIS_0_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Rx_AXIS_0_tlast" type="logic">
+      <obj_property name="ElementShortName">Rx_AXIS_0_tlast</obj_property>
+      <obj_property name="ObjectShortName">Rx_AXIS_0_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Rx_AXIS_0_tready" type="logic">
+      <obj_property name="ElementShortName">Rx_AXIS_0_tready</obj_property>
+      <obj_property name="ObjectShortName">Rx_AXIS_0_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_0_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_0_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_0_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_0_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_0_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_0_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_0_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_0_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_0_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_0_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_0_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_0_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_1_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_1_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_1_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_1_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_1_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_1_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_1_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_1_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_1_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_1_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_1_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_1_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_2_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_2_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_2_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_2_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_2_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_2_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_2_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_2_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_2_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_2_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_2_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_2_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_3_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_3_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_3_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_3_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_3_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_3_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_3_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_3_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_3_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_3_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_3_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_3_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_4_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_4_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_4_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_4_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_4_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_4_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_4_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_4_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_4_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_4_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_4_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_4_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_5_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_5_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_5_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_5_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_5_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_5_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_5_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_5_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_5_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_5_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_5_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_5_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_6_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_6_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_6_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_6_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_6_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_6_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_6_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_6_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_6_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_6_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_6_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_6_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_7_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_7_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_7_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_7_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_7_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_7_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_7_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_7_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_7_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_7_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_7_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_7_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_8_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_8_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_8_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_8_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_8_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_8_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_8_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_8_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_8_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_8_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_8_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_8_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_9_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_9_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_9_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_9_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_9_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_9_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_9_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_9_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_9_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_9_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_9_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_9_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_10_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_10_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_10_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_10_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_10_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_10_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_10_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_10_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_10_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_10_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_10_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_10_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_11_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_11_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_11_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_11_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_11_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_11_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_11_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_11_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_11_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_11_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_11_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_11_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_12_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_12_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_12_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_12_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_12_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_12_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_12_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_12_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_12_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_12_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_12_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_12_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_13_tdata" type="array">
+      <obj_property name="ElementShortName">Tx_AXIS_13_tdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_13_tdata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_13_tvalid" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_13_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_13_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_13_tlast" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_13_tlast</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_13_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/Tx_AXIS_13_tready" type="logic">
+      <obj_property name="ElementShortName">Tx_AXIS_13_tready</obj_property>
+      <obj_property name="ObjectShortName">Tx_AXIS_13_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/symbEn" type="array">
+      <obj_property name="ElementShortName">symbEn[13:0]</obj_property>
+      <obj_property name="ObjectShortName">symbEn[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/l_rxDAxis_tdata" type="array">
+      <obj_property name="ElementShortName">l_rxDAxis_tdata[64:0]</obj_property>
+      <obj_property name="ObjectShortName">l_rxDAxis_tdata[64:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/l_mAxis_tready" type="array">
+      <obj_property name="ElementShortName">l_mAxis_tready[13:0]</obj_property>
+      <obj_property name="ObjectShortName">l_mAxis_tready[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/symb_mux/AXI_WIDTH" type="other">
+      <obj_property name="ElementShortName">AXI_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">AXI_WIDTH</obj_property>
+   </wvobject>
+</wave_config>
