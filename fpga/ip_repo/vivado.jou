@@ -1,0 +1,467 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar  4 21:58:17 2024
+# Process ID: 5340
+# Current directory: F:/XlinxProj/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4496 F:\XlinxProj\ip_repo\edit_mux_v0_0.xpr
+# Log file: F:/XlinxProj/ip_repo/vivado.log
+# Journal file: F:/XlinxProj/ip_repo\vivado.jou
+# Running On: DESKTOP-3O06QN5, OS: Windows, CPU Frequency: 4491 MHz, CPU Physical cores: 16, Host memory: 33443 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/XlinxProj/ip_repo/edit_mux_v0_0.xpr
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+update_ip_catalog -rebuild
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+set_property  ip_repo_paths  F:/XlinxProj/ip_repo [current_project]
+update_ip_catalog
+close_project
+create_project symb_mux F:/XlinxProj/symb_mux -part xcku040-ffva1156-2-e
+set_property board_part xilinx.com:kcu105:part0:1.7 [current_project]
+file mkdir F:/XlinxProj/symb_mux/symb_mux.srcs/sources_1/new
+close [ open F:/XlinxProj/symb_mux/symb_mux.srcs/sources_1/new/symb_mux.vhd w ]
+add_files F:/XlinxProj/symb_mux/symb_mux.srcs/sources_1/new/symb_mux.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+source symb_mux.tcl
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+report_drivers {/symb_mux/Tx_AXIS_0_tready}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+restart
+run 1 us
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {5 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+run 1us
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {5 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {1 0ns}
+run 1us
+save_wave_config {F:/XlinxProj/symb_mux/symb_mux_behav.wcfg}
+add_files -fileset sim_1 -norecurse F:/XlinxProj/symb_mux/symb_mux_behav.wcfg
+set_property xsim.view F:/XlinxProj/symb_mux/symb_mux_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config F:/XlinxProj/symb_mux/symb_mux_behav.wcfg
+source symb_mux.tcl
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {5 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {1 0ns}
+run 1us
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {5 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {3 0ns}
+run 1us
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {5 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {0 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {3 0ns}
+run 1us
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+run 1us
+restart
+add_force {/symb_mux/symbEn} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tdata} -radix hex {5 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {0 0ns}
+add_force {/symb_mux/Rx_AXIS_0_tlast} -radix hex {0 0ns}
+add_force {/symb_mux/Tx_AXIS_0_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_2_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_3_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_4_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_5_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_6_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_7_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_8_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_9_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_10_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_11_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_12_tready} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_13_tready} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/Rx_AXIS_0_tvalid} -radix hex {1 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {1 0ns}
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {0 0ns}
+run 1us
+add_force {/symb_mux/symbEn} -radix hex {3FFF 0ns}
+run 1us
+add_force {/symb_mux/Tx_AXIS_1_tready} -radix hex {1 0ns}
+run 1us
+ipx::package_project -root_dir F:/XlinxProj/ip_repo -vendor xilinx.com -library user -taxonomy /UserIP -import_files -force
+ipx::unload_core f:/XlinxProj/ip_repo/component.xml
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/../ip_repo -vendor xilinx.com -library user -taxonomy /UserIP -import_files -force
+ipx::unload_core f:/XlinxProj/ip_repo/component.xml
+close_sim
+ipx::package_project -root_dir F:/XlinxProj/ip_repo -vendor xilinx.com -library user -taxonomy /UserIP -import_files -force
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  f:/XlinxProj/ip_repo [current_project]
+update_ip_catalog
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path f:/XlinxProj/ip_repo
+set_property ipi_drc {ignore_freq_hz true} [ipx::current_core]
+ipx::unload_core f:/XlinxProj/ip_repo/component.xml
+ipx::package_project -root_dir F:/XlinxProj/symb_mux -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core f:/XlinxProj/symb_mux/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/symb_mux f:/XlinxProj/symb_mux/component.xml
+update_compile_order -fileset sources_1
+ipx::unload_core f:/XlinxProj/symb_mux/component.xml
+set_property target_language VHDL [current_project]
+close_project
+set_property target_language VHDL [current_project]
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/symb_mux -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core f:/XlinxProj/ip_repo/symb_mux/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/ip_repo/symb_mux f:/XlinxProj/ip_repo/symb_mux/component.xml
+current_project symb_mux
+current_project tmp_edit_project
+close_project
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/symb_mux -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core f:/XlinxProj/ip_repo/symb_mux/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/ip_repo/symb_mux f:/XlinxProj/ip_repo/symb_mux/component.xml
+current_project symb_mux
+ipx::add_user_parameter FREQ_HZ [ipx::current_core]
+set_property value_resolve_type user [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+ipgui::add_param -name {FREQ_HZ} -component [ipx::current_core]
+current_project tmp_edit_project
+set_property value 100000000 [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_format long [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+ipx::remove_user_parameter FREQ_HZ [ipx::current_core]
+close_project
+ipx::open_ipxact_file {f:\XlinxProj\ip_repo\symb_mux\component.xml}
+ipx::add_user_parameter FREQ_HZ [ipx::current_core]
+set_property value_resolve_type user [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+ipgui::add_param -name {FREQ_HZ} -component [ipx::current_core]
+set_property value 100 [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_format long [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+ipgui::remove_param -component [ipx::current_core] [ipgui::get_guiparamspec -name "FREQ_HZ" -component [ipx::current_core]]
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::unload_core f:/XlinxProj/ip_repo/symb_mux/component.xml
+ipx::package_project -root_dir F:/XlinxProj/symb_mux -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core f:/XlinxProj/symb_mux/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/symb_mux f:/XlinxProj/symb_mux/component.xml
+update_compile_order -fileset sources_1
+close_project
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/symb_mux -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core f:/XlinxProj/ip_repo/symb_mux/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/ip_repo/symb_mux f:/XlinxProj/ip_repo/symb_mux/component.xml
+update_compile_order -fileset sources_1
+ipx::add_user_parameter FREQ_HZ [ipx::current_core]
+set_property value_resolve_type user [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+ipgui::add_param -name {FREQ_HZ} -component [ipx::current_core]
+set_property widget {textEdit} [ipgui::get_guiparamspec -name "FREQ_HZ" -component [ipx::current_core] ]
+set_property value 100 [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+set_property value_format long [ipx::get_user_parameters FREQ_HZ -of_objects [ipx::current_core]]
+close_project
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/symb_mux -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core f:/XlinxProj/ip_repo/symb_mux/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/ip_repo/symb_mux f:/XlinxProj/ip_repo/symb_mux/component.xml
+update_compile_order -fileset sources_1
+ipx::infer_bus_interfaces xilinx.com:signal:clock_rtl:1.0 [ipx::current_core]
+ipx::infer_bus_interface clk xilinx.com:signal:clock_rtl:1.0 [ipx::current_core]
+ipx::infer_bus_interface clk xilinx.com:signal:clock_rtl:1.0 [ipx::current_core]
+set_property ipi_drc {ignore_freq_hz true} [ipx::current_core]
+set_property ipi_drc {} [ipx::current_core]
+set_property ipi_drc {ignore_freq_hz true} [ipx::current_core]
+set_property ipi_drc {} [ipx::current_core]
+ipx::add_bus_parameter FREQ_HZ [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path f:/XlinxProj/ip_repo
+close_project
+open_project F:/XlinxProj/insertionSort/insertionSort.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/insertion_sort -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false
+ipx::unload_core f:/XlinxProj/ip_repo/insertion_sort/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/ip_repo/insertion_sort f:/XlinxProj/ip_repo/insertion_sort/component.xml
+current_project insertionSort
+current_project tmp_edit_project
+update_compile_order -fileset sources_1
+ipx::associate_bus_interfaces -busif dest -clock clk [ipx::current_core]
+ipx::associate_bus_interfaces -busif src -clock clk [ipx::current_core]
+ipx::add_bus_parameter FREQ_HZ [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  f:/XlinxProj/ip_repo/insertion_sort [current_project]
+update_ip_catalog
+close_project
+open_project F:/XlinxProj/CPlaneRec/CPlaneRec.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project F:/XlinxProj/axi_ethernet_0_ex/axi_ethernet_0_ex.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:ip:axi_ethernet:7.2 [get_ips  axi_ethernet_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips axi_ethernet_0] -no_script -sync -force -quiet
+close_project
+open_project F:/XlinxProj/SliceTypeSelector/SliceTypeSelector.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project F:/XlinxProj/SliceMem/SliceMem.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project F:/XlinxProj/muxTest/muxTest.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project -read_only F:/XlinxProj/Vivado/Canonical_filter/Float_IP_TEST.xpr
+close_project
+open_project -read_only F:/XlinxProj/Vivado/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project -read_only F:/XlinxProj/Vivado/SIN_GEN/SIN_GEN.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project F:/XlinxProj/schedDataProc_/schedDataProc_.xpr
+update_compile_order -fileset sources_1
+ipx::open_ipxact_file {F:\XlinxProj\ip_repo\sched_proc\component.xml}
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+ipx::unload_core f:/XlinxProj/ip_repo/sched_proc/component.xml
+ipx::package_project -root_dir F:/XlinxProj/ip_repo/sched_proc -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core f:/XlinxProj/ip_repo/sched_proc/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory F:/XlinxProj/ip_repo/sched_proc f:/XlinxProj/ip_repo/sched_proc/component.xml
+current_project schedDataProc_
+current_project tmp_edit_project
+update_compile_order -fileset sources_1
+ipx::infer_bus_interface s_aclk_0 xilinx.com:signal:clock_rtl:1.0 [ipx::current_core]
+ipx::infer_bus_interface s_aresetn_0 xilinx.com:signal:reset_rtl:1.0 [ipx::current_core]
+ipx::associate_bus_interfaces -busif S_AXIS_0 -clock s_aclk_0 [ipx::current_core]
+ipx::associate_bus_interfaces -busif M_AXIS_0 -clock s_aclk_0 [ipx::current_core]
+update_compile_order -fileset sources_1
+ipx::add_bus_parameter FREQ_HZ [ipx::get_bus_interfaces s_aclk_0 -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path f:/XlinxProj/ip_repo
+launch_simulation
+open_bd_design {F:/XlinxProj/schedDataProc_/schedDataProc_.srcs/sources_1/bd/schedProc/schedProc.bd}
+close_project
+open_project F:/XlinxProj/symb_fifo/symb_fifo.xpr
+update_compile_order -fileset sources_1
+open_bd_design {F:/XlinxProj/symb_fifo/symb_fifo.srcs/sources_1/bd/symb_fifo/symb_fifo.bd}
+close_project
+open_project F:/XlinxProj/schedDataProc_/schedDataProc_.xpr
+open_bd_design {F:/XlinxProj/schedDataProc_/schedDataProc_.srcs/sources_1/bd/schedProc/schedProc.bd}
+update_compile_order -fileset sources_1
+close_project
+open_project F:/XlinxProj/SliceAgent/SliceAgent.xpr
+open_bd_design {F:/XlinxProj/SliceAgent/SliceAgent.srcs/sources_1/bd/slice_agent/slice_agent.bd}
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild
+delete_bd_objs [get_bd_cells xlconstant_0]
+delete_bd_objs [get_bd_nets xlconstant_0_dout] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_02] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_04] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_08] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_10] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_11] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_12] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_13] [get_bd_intf_nets sched_proc_0_M_AXIS_0] [get_bd_nets sched_proc_0_s_enSymb_0] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_00] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_01] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_03] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_05] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_06] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_07] [get_bd_intf_nets symb_buffers_0_M_AXIS_0_09] [get_bd_cells symb_buffers_0]
+update_ip_catalog -rebuild
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:user:symb_buffers_wrapper:1.0 symb_buffers_wrapper_0
+endgroup
+set_property location {2.5 701 107} [get_bd_cells symb_buffers_wrapper_0]
+set_property location {2 708 229} [get_bd_cells symb_buffers_wrapper_0]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_00_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_00]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_01_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_01]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_02_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_02]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_03_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_03]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_04_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_04]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_05_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_05]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_06_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_06]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_07_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_07]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_08_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_08]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_09_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_09]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_10_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_10]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_11_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_11]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_12_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_12]
+connect_bd_intf_net [get_bd_intf_ports M_AXIS_0_13_0] [get_bd_intf_pins symb_buffers_wrapper_0/M_AXIS_0_13]
+connect_bd_net [get_bd_ports s_aclk_0_0] [get_bd_pins symb_buffers_wrapper_0/s_aclk_0]
+connect_bd_net [get_bd_ports s_aresetn_0_0] [get_bd_pins symb_buffers_wrapper_0/s_aresetn_0]
+connect_bd_net [get_bd_pins symb_buffers_wrapper_0/symbEn_0] [get_bd_pins sched_proc_0/s_enSymb_0]
+connect_bd_intf_net [get_bd_intf_pins sched_proc_0/M_AXIS_0] [get_bd_intf_pins symb_buffers_wrapper_0/Rx_AXIS_0_00]
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files F:/XlinxProj/SliceAgent/SliceAgent.srcs/sources_1/bd/slice_agent/slice_agent.bd] -top
+generate_target Simulation [get_files F:/XlinxProj/SliceAgent/SliceAgent.srcs/sources_1/bd/slice_agent/slice_agent.bd]
+export_ip_user_files -of_objects [get_files F:/XlinxProj/SliceAgent/SliceAgent.srcs/sources_1/bd/slice_agent/slice_agent.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files F:/XlinxProj/SliceAgent/SliceAgent.srcs/sources_1/bd/slice_agent/slice_agent.bd] -directory F:/XlinxProj/SliceAgent/SliceAgent.ip_user_files/sim_scripts -ip_user_files_dir F:/XlinxProj/SliceAgent/SliceAgent.ip_user_files -ipstatic_source_dir F:/XlinxProj/SliceAgent/SliceAgent.ip_user_files/ipstatic -lib_map_path [list {modelsim=F:/XlinxProj/SliceAgent/SliceAgent.cache/compile_simlib/modelsim} {questa=F:/XlinxProj/SliceAgent/SliceAgent.cache/compile_simlib/questa} {riviera=F:/XlinxProj/SliceAgent/SliceAgent.cache/compile_simlib/riviera} {activehdl=F:/XlinxProj/SliceAgent/SliceAgent.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation -simset [get_filesets SliceMemSim ]
+open_wave_config F:/XlinxProj/SliceAgent/SliceAgent.srcs/SliceMemSim/imports/SliceMem/sliceMem_behav.wcfg
+source tb.tcl
+run 1 us
+run 1 us
+run 1 us
+close_sim
+launch_simulation -simset [get_filesets SliceMemSim ]
+open_wave_config F:/XlinxProj/SliceAgent/SliceAgent.srcs/SliceMemSim/imports/SliceMem/sliceMem_behav.wcfg
+source tb.tcl
+run 1 us
+run 1 us
+run 1 us
+close_sim
