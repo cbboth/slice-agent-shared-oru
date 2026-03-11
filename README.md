@@ -159,27 +159,18 @@ These metrics allow evaluating the hardware efficiency of the design.
 
 # Repository Structure
 
-fpga/
-Hardware implementation of the Slice Agent
-
-fpga/ip_repo/
-Vivado IP blocks, including Slice Agent and O-RU emulator
-
-software/
-Python test environment and experiment orchestration
-
-docs/
-Architecture documentation and diagrams
-
-scripts/
-Automation scripts for running experiments
-
-data/
-Example experiment configurations
-
-results/
-Collected evaluation metrics
-
+```
+slice-agent-shared-oru/
+│
+├── fpga/        # Hardware implementation of the Slice Agent
+│   └── ip_repo/ # Vivado IP blocks
+│
+├── software/    # Python test environment
+├── docs/        # Architecture documentation
+├── scripts/     # Automation scripts
+├── data/        # Experiment configurations
+└── results/     # Evaluation results
+```
 # Hardware Platform
 
 - AMD Xilinx Kintex UltraScale FPGA
