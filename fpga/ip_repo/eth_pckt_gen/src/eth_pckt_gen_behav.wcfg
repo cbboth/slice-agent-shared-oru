@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="eth_pckt_gen_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="eth_pckt_gen" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="277.334 ns"></ZoomStartTime>
+      <ZoomEndTime time="413.335 ns"></ZoomEndTime>
+      <Cursor1Time time="300.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/eth_pckt_gen/configured" type="logic">
+      <obj_property name="ElementShortName">configured</obj_property>
+      <obj_property name="ObjectShortName">configured</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/txc_cnt" type="other">
+      <obj_property name="ElementShortName">txc_cnt</obj_property>
+      <obj_property name="ObjectShortName">txc_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/txd_cnt" type="other">
+      <obj_property name="ElementShortName">txd_cnt</obj_property>
+      <obj_property name="ObjectShortName">txd_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_txc_ready" type="logic">
+      <obj_property name="ElementShortName">l_txc_ready</obj_property>
+      <obj_property name="ObjectShortName">l_txc_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_txc_valid" type="logic">
+      <obj_property name="ElementShortName">l_txc_valid</obj_property>
+      <obj_property name="ObjectShortName">l_txc_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_txc_last" type="logic">
+      <obj_property name="ElementShortName">l_txc_last</obj_property>
+      <obj_property name="ObjectShortName">l_txc_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_txd_ready" type="logic">
+      <obj_property name="ElementShortName">l_txd_ready</obj_property>
+      <obj_property name="ObjectShortName">l_txd_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_txd_valid" type="logic">
+      <obj_property name="ElementShortName">l_txd_valid</obj_property>
+      <obj_property name="ObjectShortName">l_txd_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_txd_last" type="logic">
+      <obj_property name="ElementShortName">l_txd_last</obj_property>
+      <obj_property name="ObjectShortName">l_txd_last</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/tx_fsm" type="other">
+      <obj_property name="ElementShortName">tx_fsm</obj_property>
+      <obj_property name="ObjectShortName">tx_fsm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/rx_fsm" type="other">
+      <obj_property name="ElementShortName">rx_fsm</obj_property>
+      <obj_property name="ObjectShortName">rx_fsm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/txC_pckt" type="array">
+      <obj_property name="ElementShortName">txC_pckt[26:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">txC_pckt[26:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/txD_head" type="array">
+      <obj_property name="ElementShortName">txD_head[26:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">txD_head[26:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/l_ledClk" type="logic">
+      <obj_property name="ElementShortName">l_ledClk</obj_property>
+      <obj_property name="ObjectShortName">l_ledClk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/eth_pckt_gen/led_cnt" type="other">
+      <obj_property name="ElementShortName">led_cnt</obj_property>
+      <obj_property name="ObjectShortName">led_cnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="group263" type="group">
+      <obj_property name="label">TXC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txc_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_txc_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txc_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txc_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_txc_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txc_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txc_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_txc_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txc_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group262" type="group">
+      <obj_property name="label">TXD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txd_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_txd_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txd_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txd_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_txd_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txd_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txd_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_txd_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txd_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_txd_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_txd_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_txd_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group268" type="group">
+      <obj_property name="label">RXD</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_rxd_tdata" type="array">
+         <obj_property name="ElementShortName">m_axis_rxd_tdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axis_rxd_tdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_rxd_tvalid" type="logic">
+         <obj_property name="ElementShortName">m_axis_rxd_tvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axis_rxd_tvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_rxd_tready" type="logic">
+         <obj_property name="ElementShortName">m_axis_rxd_tready</obj_property>
+         <obj_property name="ObjectShortName">m_axis_rxd_tready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axis_rxd_tlast" type="logic">
+         <obj_property name="ElementShortName">m_axis_rxd_tlast</obj_property>
+         <obj_property name="ObjectShortName">m_axis_rxd_tlast</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group269" type="group">
+      <obj_property name="label">UART AXI</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_araddr" type="array">
+         <obj_property name="ElementShortName">m_axi_araddr[17:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_araddr[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_arready" type="logic">
+         <obj_property name="ElementShortName">m_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_rdata" type="array">
+         <obj_property name="ElementShortName">m_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_rready" type="logic">
+         <obj_property name="ElementShortName">m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_rresp" type="array">
+         <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">m_axi_awaddr[17:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awaddr[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_awready" type="logic">
+         <obj_property name="ElementShortName">m_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_wdata" type="array">
+         <obj_property name="ElementShortName">m_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_wready" type="logic">
+         <obj_property name="ElementShortName">m_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">m_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_bready" type="logic">
+         <obj_property name="ElementShortName">m_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_bresp" type="array">
+         <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/eth_pckt_gen/m_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
