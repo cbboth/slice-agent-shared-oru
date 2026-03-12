@@ -177,9 +177,8 @@ slice-agent-shared-oru/
 ├── fpga/        # Hardware implementation of the Slice Agent
 │   └── ip_repo/ # Vivado IP blocks
 │
-├── software/    # Python test environment
 ├── docs/        # Architecture documentation
-├── scripts/     # Automation scripts
+├── scripts/     # Python test environment
 ├── data/        # Experiment configurations
 └── results/     # Evaluation results
 ```
